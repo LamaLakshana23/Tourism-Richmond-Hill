@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header
+ {
+background-color: rgb(252, 231, 205);
+display: flex;
+}
+header img
+{
+    margin-left: 30px;
+}
+header ul li 
+{
+    list-style-type: none;
+    background-color:#B6D47E;
+    border: 1px solid rgb(14, 5, 131);
+    padding:5px ;
+    margin-top: 8px;
+}
+header ul li a
+{
+text-decoration: none;
+color: rgb(7, 26, 87);
+}
+header ul
+{
+    display: flex;
+ /*  justify-content: center;
+    justify-items: center; */
+}
+#list
+{
+   margin-left: 10%;
+   margin-top: 8px;
+}
+header ul:hover
+{
+cursor: pointer;
+}
+#list {
+    margin-left: 18%;
+}
+ #list #first
+{
+   border-top-left-radius: 50px;
+   border-bottom-left-radius: 50px;
+   
+}
+#list #last
+{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius:50px ;
+    padding-right: 20px;
+}
+/* 1st section*/
+#s1 .stext
+{
+    
+    background-color:#B6D47E ;
+    width: 50%;
+    text-align: center;
+}
+#s1 .stext h1
+{
+    font-size: 40px;
+    color: rgb(8, 3, 87);
+    padding-top: 20px;
+    font-family: dinneuzeitgroteskltw01-_812426,sans-serif;
+}
+
+
+#s1 p{
+    font-size: 30px;
+    color: rgb(8, 3, 87);
+    padding-top: 10px;
+
+
+}
+#s1
+{
+    display: flex;
+}
+#s1 img
+{
+    width: 100%;
+}
+/* 2st section*/
+#s2
+{
+    background-color:#eafcc8;
+
+}
+#s2 .logo img
+{   
+    width: 45%;
+    height: 170px;
+    margin-left: 30%;
+    
+}
+#s2 p
+{
+    font-size: 28px;
+    color: #007B9A;
+    padding: 30px;
+    text-align: center;
+}
+/* 3st section*/
+#s3
+{
+    display: flex;
+}
+#s3 .green
+{
+    background-color:#cdee8f ;
+    width: 25%;
+    padding-top: 20px;
+    text-align: center;
+
+
+}
+#s3 .green a
+{
+    color: white;
+    font-size: 25px;
+
+}
+#s3 .green p
+{
+color: white;
+text-align: center;
+padding: 20px;
+}
+#s3 i{
+    color: white;
+    padding: 20px;
+}
+#s3 .blue
+{
+    background-color: rgb(102, 184, 252);
+    width: 25%;
+    padding-top: 20px;
+    text-align: center;
+
+
+}
+#s3 .blue a
+{
+    color: white;
+    font-size: 25px;
+
+}
+#s3 .blue p
+{
+color: white;
+text-align: center;
+padding: 20px;
+}
+#s3 i{
+    color: white;
+    padding-top: 50px;
+}
+/*4th section started*/
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev
+{
+    background-color:rgb(73, 192, 247);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    left: unset;
+    right: 0;
+}
+/*5th section started*/
+#s5
+{
+    background-color: rgb(252, 231, 205);
+   
+    line-height: 1.7em;
+    font-size: 20px;
+    text-align: center;
+    color: #007B9A;
+    margin-top: 0%;
+
+}
+#s5 h6{
+    text-align: center;
+    color: #007B9A;
+    line-height: 1.7em;
+    padding: 20px;
+}
+#s5  img
+{
+padding: 20px;
+}
+.owl-theme .owl-nav
+ {
+    margin-top: 0%;
+
+}
